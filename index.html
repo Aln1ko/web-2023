@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class ="wrapper">
+        <header id="header">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="cat">
+            </div>
+            <nav class="main-nav">
+                 <ul>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Котики</a></li>
+                     <li><button><a href="#">Записатися</a></button></li>
+                </ul>
+                <button class="mobile-menu-handler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+         </header>
+
+         <section id="hero-banner">
+            <div class="content">
+                <h1>Зроби  своє життя краще та щасливіше </h1>
+                <p>Cats Cafe - це місце, де можна розслабитися, забути про суєту та насолоджуватися найкращими митями дня. Завітайте до нас та отримайте дозу позитивних емоцій разом з нашими неймовірними котами!</p>
+                <button><a href="#">Записатися</a></button>
+                <img src="./assets/img/hero-img.png" alt=""class="hero-image">
+
+            </div>
+         </section>
+
+         <section id="about">
+            <div class="content">
+                <h2>Про нас</h2>
+                <p>Ласкаво просимо у Cats Cafe - магічне притулок для любителів котів та справжня оаза для душі! У нас кожен крок супроводжується дружелюбними муркотаннями та радісними хвостиками наших пухнастих улюбленців.
+                    Зануртеся у світ неймовірних емоцій та приємних вражень, сидячи зручно в кріслі з келихом смачної кави або чаю в руках. Ви можете насолоджуватися миттєвістю теплих обіймів котів, пограти з ними веселі ігри чи просто розслабитися, спостерігаючи за їхніми життєвими пригодами.
+                    Наші маленькі герої - це справжні зірки Cats Cafe. Вони пристосовані до спілкування та готові поділитися своїм теплом з кожним гостем. У кожного з них своя особлива історія та характер, але всі вони готові дарувати безмежну любов та вірність.
+                    </p>
+                    <img src="./assets/img/about-img.png" alt="" class="about-image">
+            </div>
+         </section>
+
+         <section id="cats">
+            <div class="content">
+                <h2>Котики</h2>
+                <div class="album">
+                    <img src="./assets/img/cat1.png" alt="cat1" onclick = "openPopup('popap1')">
+                    <img src="./assets/img/cat2.png" alt="cat2" onclick = "openPopup('popap2')">
+                    <img src="./assets/img/cat3.png" alt="cat3" onclick = "openPopup('popap3')">
+                    <img src="./assets/img/cat4.png" alt="cat4" onclick = "openPopup('popap4')">
+                    <img src="./assets/img/cat5.png" alt="cat5" onclick = "openPopup('popap5')">
+                    <img src="./assets/img/cat6.png" alt="cat6" onclick = "openPopup('popap6')">
+                    <img src="./assets/img/cat7.png" alt="cat7" onclick = "openPopup('popap7')">
+                    <img src="./assets/img/cat8.png" alt="cat8" onclick = "openPopup('popap8')">
+                    <img src="./assets/img/cat9.png" alt="cat9" onclick = "openPopup('popap9')">
+                    <img src="./assets/img/cat10.png" alt="cat10" onclick = "openPopup('popap10')">
+
+                    <div id="popup1" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup1')">&times;</span>
+                            <img src="./assets/img/cat1.png" alt="cat1">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup2" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup2')">&times;</span>
+                            <img src="./assets/img/cat2.png" alt="cat2">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup3" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup3')">&times;</span>
+                            <img src="./assets/img/cat3.png" alt="cat3">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup4" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup4')">&times;</span>
+                            <img src="./assets/img/cat4.png" alt="cat4">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup5" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup5')">&times;</span>
+                            <img src="./assets/img/cat5.png" alt="cat5">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup6" class="popup">
+                        <div class="popup-content">
+                            <img src="./assets/img/cat6.png" alt="cat6">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup7" class="popup">
+                        <div class="popup-content">
+                            <img src="./assets/img/cat7.png" alt="cat7">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup8" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup8')">&times;</span>
+                            <img src="./assets/img/cat8.png" alt="cat8">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup9" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup9')">&times;</span>
+                            <img src="./assets/img/cat9.png" alt="cat9">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup10" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup('popup10')">&times;</span>
+                            <img src="./assets/img/cat10.png" alt="cat10">
+                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button><a href="#">Записатися</a></button>
+            </div>
+         </section>
+
+        <section id="contact-info">
+            <div class="column-left">
+                <div class="contact-info">
+                    <h2>Контактна інформація</h2>
+                    <ul>
+                        <li>
+                            <a href="tel:+38 099 999 99 99">
+                                <span>телефон +38 099 999 99 99</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:catscafe@gmail.com">
+                                <span>почта catscafe@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/maps"target = "_blank">
+                                <span>Україна, м.Київ, вулиця Жилянська 75</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <ul>
+                        <li><a href="" >
+                            <img src="./assets/img/insta.png" alt="intagram">
+                        </a></li>
+                        <li><a href="" >
+                            <img src="./assets/img/facebook.png" alt="facebook">
+                        </a></li>
+                        <li><a href="" >
+                            <img src="./assets/img/telegram.png" alt="telegram">
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="schedule">
+                    <h3>Розклад</h3>
+                    <div class="day">
+                        <h4>Понеділок</h4>
+                        <p>10:00 - 20:00</p>
+                    </div>
+                    <div class="day">
+                        <h4>Вівторок</h4>
+                        <p>10:00 - 20:00</p>
+                    </div>
+                    <div class="day">
+                        <h4>Середа</h4>
+                        <p>10:00 - 20:00</p>
+                    </div>
+                    <div class="day">
+                        <h4>Четверг</h4>
+                        <p>10:00 - 20:00</p>
+                    </div>
+                    <div class="day">
+                        <h4>П’ятниця</h4>
+                        <p>10:00 - 20:00</p>
+                    </div>
+                    <div class="day">
+                        <h4>Субота</h4>
+                        <p>10:00 - 18:00</p>
+                    </div>
+                    <div class="day">
+                        <h4>Неділя</h4>
+                        <p>10:00 - 18:00</p>
+                    </div>
+                </div>
+
+        </section>
+
+         <footer id="footer">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="cat">
+            </div>
+            <nav class="main-nav">
+                 <ul>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Котики</a></li>
+                    <li><button><a href="#">Записатися</a></button></li>
+                </ul>
+         </footer>
+
+    </div>
+</body>
+</html>
