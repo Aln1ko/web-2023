@@ -1,0 +1,357 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C4EAF2;
+
+    color: #22779B;
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#header {
+    display: inline-flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+
+}
+
+.main-nav ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content{
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+
+.content h1, h2{
+    color: #16475D;
+    font-family: Noto Serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 80px */
+    margin: 0%;
+}
+
+#cats h2{
+    text-align: center;
+}
+#cats .content{
+    display:block;
+}
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5% 0;
+}
+
+#cats button{
+    margin: 5% auto;
+    display: block;
+}
+.album img {
+    width: calc(20% - 10px);
+    margin-bottom: 10px;
+}
+
+#hero-banner .content  h1{
+    padding:5% 0;
+}
+
+.content p{
+    padding:5% 5% 5% 0 ;
+}
+
+.content button{
+    width: 230px;
+    height:100px;
+    margin: 5% 0 5% 0;
+}
+
+#about img{
+    margin: 10% auto;
+}
+
+button{
+    background-color: rgba(50, 184, 241, 1);
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: 66px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    flex-shrink: 0;
+    font-size: 32px;
+}
+
+
+
+.popup{
+    display:none;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.column-left span{
+    color: #16475D;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.column-left ul{
+    padding: 0;
+}
+.column-left ul li{
+    list-style: none;
+
+}
+
+.contact ul li a{
+    text-decoration: none;
+}
+
+.contact h2{
+    color: #16475D;
+
+    font-family: Manrope;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.social ul li {
+    display: inline-flex;
+    margin-right: 1%;
+}
+
+h3{
+    color: #16475D;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin:5%;
+}
+
+.day{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#16475D;
+    gap: 5%;
+    font-size: 28px;
+}
+.right-column{
+  min-width:35%;
+
+}
+
+
+.day h4, .day p {
+    margin: 0;
+}
+
+
+.footer-wraper {
+    background: #98DEFC;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#footer {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+
+}
+
+.mobile-menu-handler{
+    display:none;
+}
+
+
+.mobile-menu-handler {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius:0;
+}
+.mobile-menu-handler span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #16475D;
+	transition: all 0.5s;
+}
+.mobile-menu-handler span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.mobile-menu-handler span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+.mobile-menu{
+    display:none;
+}
+
+.image img{
+    width: auto;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.image{
+    width:100%;
+}
+
+#hero-banner .content > div {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px; /* Опционально: добавляет внутренний отступ для дивов */
+}
+#about .content > div {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px; /* Опционально: добавляет внутренний отступ для дивов */
+}
+
+/* Добавьте это в конец вашего CSS файла */
+
+/* Адаптивные стили для мобильных устройств */
+@media screen and (max-width: 768px) {
+    .main-nav ul {
+        display: block;
+        text-align: center;
+        gap: 0;
+    }
+
+    .main-nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .column-left span {
+        font-size: 28px;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+    }
+
+    .social ul li {
+        margin-right: 5px;
+    }
+
+    .day {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content{
+        display: block;
+    }
+    #hero-banner .content > div {
+        width: 100%;
+
+    }
+    #about .content > div {
+        width: 100%;
+    }
+    #hero-banner .content .text{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #hero-banner .content .text button{
+        display: inline-block;
+    }
+
+    .album img {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
+    #contact-info .right-column .schedule .day{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/* Адаптивные стили для планшетов и устройств среднего размера */
+@media screen and (max-width: 1024px) {
+    .footer-wraper {
+        padding: 10px;
+    }
+
+    .day {
+        font-size: 24px;
+    }
+    .main-nav ul{
+        display:none;
+    }
+    .mobile-menu-handler{
+        display:block;
+    }
+    #contact-info {
+        display: block;
+    }
+
+}

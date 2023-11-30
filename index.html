@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,27 +23,43 @@
                     <span></span>
                     <span></span>
                 </button>
+                <div class="mobile-menu">
+                    <nav>
+                       <ul>
+                        <li><a href="#about">Про нас</a></li>
+                        <li<a href="#cats">Котики</a></li>
+                        <li><a href="#">Записатися</a></li>
+                       </ul>
+                    </nav>
+                </div>
             </nav>
          </header>
 
          <section id="hero-banner">
             <div class="content">
-                <h1>Зроби  своє життя краще та щасливіше </h1>
-                <p>Cats Cafe - це місце, де можна розслабитися, забути про суєту та насолоджуватися найкращими митями дня. Завітайте до нас та отримайте дозу позитивних емоцій разом з нашими неймовірними котами!</p>
-                <button>Записатися</button>
-                <img src="./assets/img/hero-img.png" alt="" class="hero-image">
-
+                <div class="text">
+                    <h1>Зроби  своє життя краще та щасливіше </h1>
+                    <p>Cats Cafe - це місце, де можна розслабитися, забути про суєту та насолоджуватися найкращими митями дня. Завітайте до нас та отримайте дозу позитивних емоцій разом з нашими неймовірними котами!</p>
+                    <button>Записатися</button>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/hero-img.png" alt="" class="hero-image">
+                </div>
             </div>
          </section>
 
          <section id="about">
             <div class="content">
+                <div class="text">
                 <h2>Про нас</h2>
                 <p>Ласкаво просимо у Cats Cafe - магічне притулок для любителів котів та справжня оаза для душі! У нас кожен крок супроводжується дружелюбними муркотаннями та радісними хвостиками наших пухнастих улюбленців.
                     Зануртеся у світ неймовірних емоцій та приємних вражень, сидячи зручно в кріслі з келихом смачної кави або чаю в руках. Ви можете насолоджуватися миттєвістю теплих обіймів котів, пограти з ними веселі ігри чи просто розслабитися, спостерігаючи за їхніми життєвими пригодами.
                     Наші маленькі герої - це справжні зірки Cats Cafe. Вони пристосовані до спілкування та готові поділитися своїм теплом з кожним гостем. У кожного з них своя особлива історія та характер, але всі вони готові дарувати безмежну любов та вірність.
                     </p>
+                </div>
+                <div class="image">
                     <img src="./assets/img/about-img.png" alt="" class="about-image">
+                </div>
             </div>
          </section>
 
@@ -60,7 +77,7 @@
                     <img src="./assets/img/cat8.png" alt="cat8" onclick = "openPopup('popap8')">
                     <img src="./assets/img/cat9.png" alt="cat9" onclick = "openPopup('popap9')">
                     <img src="./assets/img/cat10.png" alt="cat10" onclick = "openPopup('popap10')">
-
+                </div>
                     <div id="popup1" class="popup">
                         <div class="popup-content">
                             <span class="close" onclick="closePopup('popup1')">&times;</span>
@@ -139,14 +156,14 @@
                         </div>
                     </div>
 
-                </div>
                 <button>Записатися</button>
+
             </div>
          </section>
 
         <section id="contact-info">
             <div class="column-left">
-                <div class="contact-info">
+                <div class="contact">
                     <h2>Контактна інформація</h2>
                     <ul>
                         <li>
@@ -180,7 +197,10 @@
                         </a></li>
                     </ul>
                 </div>
+            </div>
 
+
+            <div class="right-column">
                 <div class="schedule">
                     <h3>Розклад</h3>
                     <div class="day">
@@ -214,20 +234,35 @@
                 </div>
             </div>
         </section>
+    </div>
 
+    <div class="footer-wraper">
          <footer id="footer">
-            <div class="logo">
-                <img src="./assets/img/logo.png" alt="cat">
-            </div>
-            <nav class="main-nav">
-                 <ul>
-                    <li><a href="#about">Про нас</a></li>
-                    <li><a href="#cats">Котики</a></li>
-                    <li><button>Записатися</button></li>
-                </ul>
-            </nav>
+                <div class="logo">
+                    <img src="./assets/img/logo.png" alt="cat">
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                       <li><a href="#about">Про нас</a></li>
+                       <li><a href="#cats">Котики</a></li>
+                        <li><button>Записатися</button></li>
+                   </ul>
+                   <button class="mobile-menu-handler">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </button>
+                   <div class="mobile-menu">
+                       <nav>
+                          <ul>
+                           <li><a href="#about">Про нас</a></li>
+                           <li<a href="#cats">Котики</a></li>
+                           <li><a href="#">Записатися</a></li>
+                          </ul>
+                       </nav>
+                   </div>
+                </nav>
          </footer>
-
     </div>
 </body>
 </html>
