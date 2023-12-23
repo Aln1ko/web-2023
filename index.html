@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -67,94 +68,24 @@
             <div class="content">
                 <h2>Котики</h2>
                 <div class="album">
-                    <img src="./assets/img/cat1.png" alt="cat1" onclick = "openPopup('popap1')">
-                    <img src="./assets/img/cat2.png" alt="cat2" onclick = "openPopup('popap2')">
-                    <img src="./assets/img/cat3.png" alt="cat3" onclick = "openPopup('popap3')">
-                    <img src="./assets/img/cat4.png" alt="cat4" onclick = "openPopup('popap4')">
-                    <img src="./assets/img/cat5.png" alt="cat5" onclick = "openPopup('popap5')">
-                    <img src="./assets/img/cat6.png" alt="cat6" onclick = "openPopup('popap6')">
-                    <img src="./assets/img/cat7.png" alt="cat7" onclick = "openPopup('popap7')">
-                    <img src="./assets/img/cat8.png" alt="cat8" onclick = "openPopup('popap8')">
-                    <img src="./assets/img/cat9.png" alt="cat9" onclick = "openPopup('popap9')">
-                    <img src="./assets/img/cat10.png" alt="cat10" onclick = "openPopup('popap10')">
+                    <img src="./assets/img/cat1.png" alt="cat1" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat2.png" alt="cat2" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat3.png" alt="cat3" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat4.png" alt="cat4" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat5.png" alt="cat5" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat6.png" alt="cat6" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat7.png" alt="cat7" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat8.png" alt="cat8" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat9.png" alt="cat9" onclick = "openPopup(this);">
+                    <img src="./assets/img/cat10.png" alt="cat10" onclick = "openPopup(this);">
                 </div>
-                    <div id="popup1" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup1')">&times;</span>
-                            <img src="./assets/img/cat1.png" alt="cat1">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
 
-                    <div id="popup2" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup2')">&times;</span>
-                            <img src="./assets/img/cat2.png" alt="cat2">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup3" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup3')">&times;</span>
-                            <img src="./assets/img/cat3.png" alt="cat3">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup4" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup4')">&times;</span>
-                            <img src="./assets/img/cat4.png" alt="cat4">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup5" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup5')">&times;</span>
-                            <img src="./assets/img/cat5.png" alt="cat5">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup6" class="popup">
-                        <div class="popup-content">
-                            <img src="./assets/img/cat6.png" alt="cat6">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup7" class="popup">
-                        <div class="popup-content">
-                            <img src="./assets/img/cat7.png" alt="cat7">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup8" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup8')">&times;</span>
-                            <img src="./assets/img/cat8.png" alt="cat8">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup9" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup9')">&times;</span>
-                            <img src="./assets/img/cat9.png" alt="cat9">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
-
-                    <div id="popup10" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="closePopup('popup10')">&times;</span>
-                            <img src="./assets/img/cat10.png" alt="cat10">
-                            <p>Lorem ipsum dolor sit amet consectetur. Potenti ut nisl odio laoreet felis gravida lorem. Tellus aliquam semper senectus suspendisse. Et venenatis in massa consectetur massa ultricies. Massa erat ornare elementum volutpat massa.</p>
-                        </div>
-                    </div>
+                <div class="popup" id="popap1">
+                    <span class="close-btn" onclick="closepopup()">×</span>
+                    <img src="./assets/img/cat1.png" alt="cat1" class="popup-img">
+                    <span class="prev-btn" onclick="changeimage(-1)">&#10094;</span>
+                    <span class="next-btn" onclick="changeimage(1)">&#10095;</span>
+                </div>
 
                 <button>Записатися</button>
 

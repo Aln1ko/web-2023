@@ -121,6 +121,67 @@ button{
 
 .popup{
     display:none;
+    position: fixed;
+    width:100%;
+    height:100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.8);
+}
+
+.popup-img {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #fff;
+    border-radius: 10px;
+    width: 400px;
+}
+.close-btn{
+    position:fixed;
+    top:10px;
+    right:20px;
+    width: 40px;
+    height:40px;
+    background-color: #fff;
+    font-size:50px;
+    font-weight: 900;
+    text-align: center;
+    line-height:40px ;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.prev-btn{
+    position:fixed;
+    top:50%;
+    left:20px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    font-size:50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 50px ;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.next-btn{
+    position:fixed;
+    top:50%;
+    right:20px;
+    width: 50px;
+    height:50px;
+    background-color: #fff;
+    font-size:50px;
+    font-weight: 900;
+    text-align: center;
+    line-height:50px ;
+    border-radius: 50%;
+    cursor:pointer;
 }
 
 #contact-info {
